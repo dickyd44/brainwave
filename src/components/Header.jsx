@@ -35,7 +35,7 @@ export default function Header() {
         openNavigation ? "bg-n-8" : "bg-n-9/90 backdrop-blur-sm"
       }`}
     >
-      <div className="flex items-center m-2 px-5 lg:px-7.5 xl:px-10 mx-lg:py-4">
+      <div className="flex items-center m-1 px-5 lg:px-7.5 xl:px-10 mx-lg:py-4">
         <a href="#hero" className="block w-[12rem] xl:mr-8">
           <img src={brainwave} alt="Brainwave" width={190} height={40} />
         </a>
